@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Vercel Trick By <a href="https://alcashzone.com">Alcash Zone</a>
+          Welcome to Vercel Trick By <a href="https://grnews.xyz">Gr News </a>
         </h1>
 
         <p className={styles.description}>
@@ -23,22 +23,22 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://alcashzone.com/category/adsterra-earning/" className={styles.card}>
+          <a href="https://grnews.xyz" className={styles.card}>
             <h2>Documentation &rarr;</h2>
-            <p>Here you can find how to earn money from Adsterra .</p>
+            <p>World Best News source .</p>
           </a>
 
-          <a href="https://alcashzone.com/category/adsense-approval/" className={styles.card}>
+          <a href="https://grnews.xyz/" className={styles.card}>
             <h2>Master In AdSense Approval &rarr;</h2>
-            <p>Here you can find the of how you become master in AdSense approval!</p>
+            <p>World Best News source!</p>
           </a>
 
           <a
-            href="https://alcashzone.com/category/blogging/"
+            href="https://grnews.xyz"
             className={styles.card}
           >
             <h2>Blogging &rarr;</h2>
-            <p>Here you can find the source to become master in blogging</p>
+            <p>World Best News source</p>
           </a>
 
           <a
