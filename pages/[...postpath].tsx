@@ -24,7 +24,16 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			},
 		};
 		}
-
+		if (referringURL?.includes('twitter.com') || t.co) {
+	return {
+		redirect: {
+			permanent: false,
+			destination: `${
+				`https://grnews.xyz/` + encodeURI(path as string)
+			}`,
+		},
+	};
+        }
 	const query = gql`
 		{
 			post(id: "/${path}/", idType: URI) {
